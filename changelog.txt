@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.17.2
-Date: 2019.11.28
-  Optimisations:
-    - More conditional checking and editing of collison masks rather than direct assignment, for better compatibility with other mods.
+Version: 0.0.1
+Date: 2020.02.05
+  Changes:
+    - Migrated Lua Combinator 3 to only allow one fixed script.
