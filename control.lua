@@ -1317,7 +1317,7 @@ function insert_history983(gui, code)
 	end
 end
 on_built_entity983 = function(event)
-	if event.created_entity.valid and event.created_entity.name == "loading-limiter" then
+	if event.creeated_entity.valid and event.created_entity.name == "loading-limiter" then
 		global.counter983 = global.counter983 + 1
 		global.combinators983[event.created_entity.unit_number] = {
 			["formatting"] = true,
