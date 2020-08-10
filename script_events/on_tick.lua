@@ -9,6 +9,18 @@ function on_tick(e)
 
 	-- log("Event tick: " .. e.tick .. " modulo ".. loading_limiter_ticks)
 
-	game.print("Event tick: " .. e.tick .. " modulo ".. loading_limiter_ticks)
+	--game.print("Event tick: " .. e.tick .. " modulo ".. loading_limiter_ticks)
 
+	local limiters = game.surfaces[1].find_entities_filtered{name = "loading-limiter"}
+
+	game.print("Found " .. #limiters .. " limiters")
+
+	for key, value in pairs(limiters)
+	do
+		local behavoir = value.get_control_behavior()
+		if behavoir.enabled == true then
+			local network = value.get_merged_signals()
+			game.print(serpent.line(behavoir.enabled) .. "\n" .. serpent.block(network))
+		end
+	end
 end

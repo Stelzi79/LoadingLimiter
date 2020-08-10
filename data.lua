@@ -9,7 +9,7 @@ sp = {
 
 combinator = table.deepcopy(data.raw["constant-combinator"]["constant-combinator"])
 combinator.name = "loading-limiter"
-combinator.item_slot_count = 20
+combinator.item_slot_count = 15
 combinator.minable = {mining_time = 0.5, result = "loading-limiter"}
 combinator.sprites =
 	make_4way_animation_from_spritesheet(
