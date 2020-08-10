@@ -2,6 +2,6 @@
 
 script.on_configuration_changed(function(data)
 
-	log("Testing Loading Limiter")
+	log("on_configuration_changed: Testing Loading Limiter")
 
 end)
