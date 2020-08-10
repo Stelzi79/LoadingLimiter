@@ -1,7 +1,0 @@
-Here are a few variables to get you started:
-combinator = the entity the script is running on
-rednet [] = signals in the red network (read only) (Signal-name -> Value)
-greennet [] = same for the green network
-output [] = a table with all the signals you are sending to the networks, they are permanent so to remove a signal you need to set its entry to nil, or flush all signals by entering output = {} (creates a fresh table) (Signal-name -> Value)
-var [] = a table to store all your combinator's variables between the ticks
-delay = the delay in ticks until the next update (to save some ups) (not persistent, needs to be set on each update)

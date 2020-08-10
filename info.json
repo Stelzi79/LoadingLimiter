@@ -6,6 +6,6 @@
 	"homepage": "https://github.com/Stelzi79/LoadingLimiter",
 	"source": "https://github.com/Stelzi79/LoadingLimiter",
 	"dependencies": ["base"],
-	"description": "Special combinator that Limits how much is actually loaded onto some storage. This can be used to not overfill some bulk train storage for LTN. This mod is based on LuaCombinator3.",
+	"description": "Special combinator that Limits how much is actually loaded onto some storage. This can be used to not overfill some bulk train storage for LTN.",
 	"factorio_version": "0.18.2"
 }
