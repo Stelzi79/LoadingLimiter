@@ -7,7 +7,7 @@ function on_tick(e)
 		event.on_nth_tick(loading_limiter_ticks, on_tick)
 	end
 
-	--log("Event tick: " .. e.tick .. " modulo ".. loading_limiter_ticks)
+	-- log("Event tick: " .. e.tick .. " modulo ".. loading_limiter_ticks)
 
 	game.print("Event tick: " .. e.tick .. " modulo ".. loading_limiter_ticks)
 
